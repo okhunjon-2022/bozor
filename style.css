@@ -4,7 +4,9 @@
     box-sizing: border-box;
     font-family: sans-serif;
 }
-
+body{
+    height: 700vh;
+}
     
 
 .collection{
@@ -347,12 +349,12 @@ ul{
     line-height: 5px;
     padding: 40px 120px;
     font-size: 12px;
-    height: 100%;
+   width: 800px;
     
 }
 .right-footer{
+   
     height: 100%;
-    
     padding-top: 35px;
 }
 .right-footer ul li{

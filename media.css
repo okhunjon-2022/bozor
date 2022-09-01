@@ -39,3 +39,12 @@
     }
 
 }
+@media screen and (max-width:550px) {
+   .left-footer {
+    display: none;
+   } 
+   .right-footer{
+    display: none;
+   }
+
+}
