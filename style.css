@@ -1,0 +1,409 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+    
+
+.collection{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    margin: auto;
+    height: 80px;
+    position: sticky;
+    top: 0;
+  background-color: #fff;
+}
+.image img{
+   width: 200px;
+}
+.bar{
+    display: none;
+}
+
+
+.search{
+    width: 70%;
+    height: 35px;
+    display: flex;
+   
+    
+}
+.search input{
+    width: 100%;
+    height: 100%;
+    background-color: #F9FAFB;
+    border: 1px solid #c3c3c4;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    padding-left: 8px;
+}
+.search i{
+    width: 100%;
+    height: 100%;
+    width: 38px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    padding: 8px;
+    color: #fff;
+    font-weight: 600;
+    background-color: red;
+}
+.icons{
+    display: flex;
+    align-items: center;
+}
+.icon{
+    font-size: 14px;
+    padding:0px 15px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+    font-size: 12px;
+    margin-top: 15px;
+}
+
+.icon i{
+    font-size: 24px;
+}
+.ion{
+    color:  red;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    width: 100%;
+    height: 30px;
+    border-top: 1px solid #c3c3c4;
+    border-bottom: 1px solid #c3c3c4;
+    position: sticky;
+    top: 80px;
+    background-color: #fff;
+}
+.item{
+    text-align: center;
+    padding-left: 15px;
+}
+
+.item:hover{
+    border-bottom: 2px solid black;
+}
+ul{
+    display: flex;
+    
+   
+}
+.item{
+    list-style: none;
+    padding-right: 40px;
+    padding-top: 15px;
+}
+.sale{
+    color:  #C95C76;
+    
+}
+.banner{
+    background-image: url("pexels-tom-balabaud-1579739.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+   
+}
+.HeroStyles_Overlay__wOQOg{
+    margin-left: 25%;
+    width: 50%;
+}
+
+.wrapper{
+    width: 100%;
+   
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.card{
+    width: 210px;
+    height: 210px;
+    text-align: center;
+    border: none;
+    background-color: #F9F9F9;
+    margin-bottom: 20px;
+    z-index: -10;
+    margin-top: 10px;
+}
+.card h4{
+    font-size: 16px;
+    padding-top: 5px;
+    font-weight: 600;
+}
+.header{
+    text-align: center;
+   margin-top: 15px;
+}
+.header h1{
+    font-weight: 700;
+    font-size: 30px;
+}
+.living_room{
+    background-image: url("pexels-vecislavas-popa-1571470.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 100%;
+    margin: auto;
+    height: 600px;
+    margin-top: 80px;
+}
+.living_room img{
+    width: 100%;
+}
+.goods{
+    margin-top: 50px;
+}
+.goods h4{
+    font-size: 22px;
+    color: #545658;
+}
+.fresh{
+    margin-top: 50px;
+    
+}
+
+.fresh h1{
+    font-size: 35px;
+    color: #4a4a4a;
+}
+
+.carousel{
+    width: 95%;
+    margin: 35px auto;
+    display: flex;
+    overflow-x: auto;
+    position: static;
+}
+
+.carousel_item{
+    width: 350px;
+    height: 480px;
+    min-width: 350px;
+    margin: 5px;
+    background: url("./rasmlar_cara/08222022_V2_LBD_editorial_v3.svg") no-repeat top/100%;
+   
+}
+.caousel_info{
+    margin-top: 330px;
+    background-color: #F5F5F5;
+    width: 100%;
+    height:150px;
+    padding: 20px;
+}
+.caousel_info h1{
+    font-weight: 600;
+    font-size: 30px;
+    color: #2F3337;
+    
+}
+
+.carousel::-webkit-scrollbar{
+    height: 10px;
+}
+.carousel::-webkit-scrollbar-thumb{
+    background-color: #999;
+    border-radius: 10px;
+
+}
+.outdoor{
+    background: url("./rasmlar_cara/08082022-Frame2-OutdoorDining.webp") no-repeat top/100%;
+}
+.machine{
+    background: url("./rasmlar_cara/08082022-Frame3-BohoMachineWashable.webp") no-repeat top/100%;
+}
+.rustic{
+    background: url("./rasmlar_cara/08082022-Frame4-Rustic.webp") no-repeat top/100%;
+}
+.hammocks{
+    background: url("./rasmlar_cara/08082022-Frame5-HammocksSwings.webp") no-repeat top/100%;
+}
+.benches{
+    background: url("./rasmlar_cara/08082022-Frame6-OutdoorBenches.webp") no-repeat top/100%;
+}
+.floral{
+    background: url("./rasmlar_cara/08082022-Frame7-FloralChairs.webp") no-repeat top/100%;
+}
+.wood{
+    background: url("./rasmlar_cara/08082022-Frame8-WoodPlatformBeds.webp") no-repeat top/100%;
+}
+.campus{
+    background-image: url("pexels-victoria-borodinova-1648776.jpg");
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    width: 95%;
+    margin: auto;
+    height: 600px;
+    margin-top: 80px
+}
+
+.furniture{
+    width: 335px;
+    height: 390px;
+    border: 1px solid red;
+    text-align: center;
+    border: none;
+    background-color: #F9F9F9;
+    margin-top: 10px;
+}
+.furniture img{
+    width: 100%;
+}
+.extra{
+    line-height: 8px;
+    background-color: #F5F6F7;
+    font-size: 18px;
+    
+    
+    
+}
+.extra h4{
+    font-size: 18px;
+}
+
+.country{
+    width: 450px;
+    height: 580px;
+}
+.country h1{
+    text-align: start;
+    padding: 20px 25px;
+    font-size: 30px;
+    font-weight: 700;
+}
+
+.country p{
+    line-height: 22px;
+    text-align: start;
+    padding: 0 20px;
+    
+}
+.btns{
+    height: 150px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.contain{
+    border: 1px solid red;
+    display: grid;
+   
+}
+.grid_containere{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: 50px auto;
+    grid-gap: 25px;
+    
+}
+.grid_item{
+   
+    width: 470px;
+    height: 50px;
+    background-color: #F5F6F7;
+}
+.grid_item h3{
+    text-align: center;
+    font-weight: 600;
+    color: #545658;
+    font-size: 24px;
+    padding-top: 10px;
+}
+
+.bottom-footer{
+    width: 100%;
+    height: 100px;
+    background-color: rgb(47,51,55);
+
+}
+
+.bottom-footer{
+    color: #fff;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.left-footer{
+    line-height: 5px;
+    padding: 40px 120px;
+    font-size: 12px;
+    height: 100%;
+    
+}
+.right-footer{
+    height: 100%;
+    
+    padding-top: 35px;
+}
+.right-footer ul li{
+    list-style: none;
+    padding-right: 20px;
+    
+    
+}
+
+
+
+footer{
+   width: 100%;
+   height: 400px;
+    background-color: #545658;
+    padding: 70px 0;
+    
+}
+.footer-col ul{
+    display:block ;
+    list-style: none;
+    text-decoration: none   ;
+    line-height: 40px;
+    
+}
+.footer-col ul li{
+    text-decoration: none;
+}
+.cointainer{
+    width: 90%;
+    margin: auto;
+    
+   
+}
+.rows{
+    display: flex;
+   
+
+}
+.footer-col{
+    width: 25%;
+    padding: 0 15px;
+    color: #fff;
+}
+
+.footer-col h4{
+    font-size: 18px;
+    color: #fff;
+    margin-bottom: 30px
+}
+
+
+
+

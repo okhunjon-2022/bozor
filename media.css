@@ -1,0 +1,41 @@
+@media screen and (max-width:1490px) {
+    nav ul{
+        display: none;
+    } 
+    
+
+}
+@media screen and (max-width:1120px) {
+    footer .cointainer .row .footer-col{
+       
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+        height: 600px;
+    }
+    
+
+}
+
+
+
+
+
+@media screen and (max-width:960px) {
+    .image{
+        display: none;
+    }
+    .bar{
+        display: flex;
+        
+    }
+    nav ul{
+        display: none;
+    }
+    .banner{
+        background-image: url("./pexels-tom-balabaud-1579739.jpg");
+        position: relative;
+        top: -40px;
+    }
+
+}
